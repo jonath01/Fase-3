@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FF5F00;
+    padding: 50px;
+}
+.imagen{
+    background-image: none;
+}
+nav{
+    background-color: #FF0000;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    text-indent: 20px;
+}
+.menu li a:hover{
+    color: aliceblue;
+}
+.submenu{
+    position: absolute;
+    background: #FF0000;
+    width: 100%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+article{
+    background-color: #00092C;
+    grid-column:1/4 ;
+    padding: 10px;
+    margin: 10px;
+    color: antiquewhite;
+
+}
+article > h1{
+    text-align: justify;
+    color: azure;
+    font-size: 30px;
+
+}
+article > li{
+    margin: 15px;
+}
+aside{
+    background-color: whitesmoke;
+    grid-column:4/5 ;
+}
+aside > h1{
+    text-align: justify;
+    color: midnightblue;
+}
+aside > hr{
+    color: blue;
+}
+footer{
+    background-color: #FF5F00;
+    padding: 20px;
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
