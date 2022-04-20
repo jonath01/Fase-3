@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 header{
-    background-color: #FF5F00;
     padding: 50px;
-}
-.imagen{
-    background-image: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FF0000;
 }
 nav{
     background-color: #FF0000;
