@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 header{
-    background-color: #FF5F00;
     padding: 50px;
-}
-.imagen{
-    background-image: none;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #FF0000;
 }
 nav{
     background-color: #FF0000;
@@ -55,7 +53,7 @@ article{
     color: antiquewhite;
 
 }
-article > h1{
+section > article > h1{
     text-align: justify;
     color: azure;
     font-size: 30px;
